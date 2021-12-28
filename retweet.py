@@ -39,5 +39,5 @@ tweets_listener = StreamListener(twitter_api)
 tweet_stream = tweepy.Stream(twitter_api.auth, tweets_listener)
 
 # use the filter method
-tweet_stream.filter(track=["#100DaysofCode", "#ProgrammingLife", "#javascript", "#nodejs", "#pythondeveloper", "#javaprogramming"],
+tweet_stream.filter(track=["#osint", "#socmint", "#geoint", "#ProgrammingLife", "#python", "#kali", "#pythondeveloper", "#linux", "#wsl", "#infosec", "#cybersecurity", "#malware", "#MachineLearning", "#github", "opensource"],
 languages=["en"])

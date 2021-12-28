@@ -21,7 +21,7 @@ class StreamListener(tweepy.StreamListener):
       try: 
         tweet.retweet()
         print("Tweet retweeted successfully")
-        sleep(10)
+        sleep(600)
       except Exception as e:
         print(e)
 
@@ -36,3 +36,4 @@ class StreamListener(tweepy.StreamListener):
   # the function containing the logic in case there is an error  
   def on_error(self, status):
     print(f"Error while retweeting: {status}")
+  

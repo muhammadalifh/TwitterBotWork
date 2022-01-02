@@ -1,6 +1,6 @@
 # TwitterBotWork
 
 
-## A very simple BOT containing updates on technology, especially in the fields of OSINT, Machine Learning, and Cybersecurity. 
-## BOT will refresh every 1 Hour.
+## BOT yang sangat sederhana berisi update tentang teknologi khususnya di bidang OSINT, Machine Learning, dan Cybersecurity.
+## BOT akan me-*refresh* setiap 1 Jam.
 # Link Twitter : https://twitter.com/ancreatures
